@@ -1,6 +1,6 @@
 ---
-applcations:
-  - name: pb-cfsrvc-mong
+applications:
+  - name: pb-busisols-movies
     memory: 256M
     instance: 1
     no-route: true
