@@ -1,0 +1,30 @@
+{
+  "name": "cfboundservice",
+  "version": "1.0.0",
+  "description": "Application to bound CF Service",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpawanchand/cfboundservice.git"
+  },
+  "keywords": [
+    "cfservicebinding"
+  ],
+  "author": "Pavan Bhamidipat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bpawanchand/cfboundservice/issues"
+  },
+  "homepage": "https://github.com/bpawanchand/cfboundservice#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cfenv": "^1.2.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.4"
+  }
+}
