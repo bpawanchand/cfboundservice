@@ -3,9 +3,12 @@ applications:
   - name: pb-busisols-movies
     memory: 256M
     instance: 1
-    no-route: true
+    no-route: false
     random-route: false
     stack: cflinuxfs3
     command: node src/app.js
     buildpacks:
       - https://github.com/cloudfoundry/nodejs-buildpack.git
+    services:
+      - mymongodb
+      - nodeamqp
